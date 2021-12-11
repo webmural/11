@@ -1,6 +1,6 @@
 :root {
   font-family: sans-serif;
-  font-size: calc(1em + 2vmin + 2vmax);
+  font-size: calc(1em + 5vmin);
 }
 
 :focus {
@@ -16,6 +16,13 @@
   margin: auto;
 }
 
-.pad {
-  padding: 1ex;
+.numb {
+  line-height: 1;
+  font-size: 5rem;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }
